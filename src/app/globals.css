@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-primary: #1f35f9;
+
+  --font-ballinger: var(--customfont-ballinger);
+  --font-pp-supply-mono: var(--customfont-pp-supply-mono);
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #dfe1e5;
+}
